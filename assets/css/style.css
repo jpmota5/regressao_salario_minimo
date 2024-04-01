@@ -34,6 +34,7 @@ body {
     color: #f8fafc;
     background-color: #262626;
     border-radius: 8px;
+    max-width: 540px;
 }
 
 #form {
