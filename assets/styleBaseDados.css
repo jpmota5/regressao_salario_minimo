@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            background-color: #18181b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-x: hidden;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .body_total {
+            align-items: center;
+            padding: 5rem;
+        }
+
+        #calculator {
+            padding: 2rem;
+            color: #f8fafc;
+            background-color: #262626;
+            border-radius: 8px;
+            max-width: 95vw;
+            overflow-x: auto;
+            margin-bottom: 4rem;
+            margin-top: 23rem;
+            width: 100%;
+            max-width: calc(100vw - 4rem);
+        }
+
+        #calculator::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        #calculator::-webkit-scrollbar-track {
+            background-color: #262626;
+            border-radius: 8px;
+        }
+
+        #calculator::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 8px;
+        }
+
+        #calculator::-webkit-scrollbar-thumb:hover {
+            background: #807afc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 0.75rem;
+            text-align: center;
+            border-bottom: 1px solid #cbd5e1;
+            color: #cbd5e1;
+            font-size: 0.9rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+
+        th {
+            background-color: #6C63FF;
+            color: #f8fafc;
+        }
+
+        h1 {
+            padding-bottom: 1rem;
+        }
+
+        .grafic {
+            padding: 2rem;
+            color: #f8fafc;
+            background-color: #262626;
+            border-radius: 8px;
+            max-width: 95vw;
+            overflow-x: auto;
+            align-items: center;
+            justify-items: center;
+            margin-bottom: 3rem;
+            width: 100%;
+            max-width: calc(100vw - 4rem); 
+        }
+
+        .img_grafic {
+            display: flex;
+            justify-content: center;
+        }
+
+        .img_grafic img {
+            max-width: 100%;
+            height: auto;
+            max-width: 100%;
+            height: auto; 
+        }
